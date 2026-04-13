@@ -1,0 +1,146 @@
+[
+  {
+    "id": "o_1001",
+    "userId": "u_user_1",
+    "items": [
+      {
+        "productId": "p_102",
+        "title": "Базовая белая футболка",
+        "price": 45,
+        "quantity": 2,
+        "size": "M"
+      }
+    ],
+    "totalPrice": 90,
+    "status": "delivered",
+    "deliveryAddress": "Moscow, Tverskaya 10",
+    "createdAt": "2026-04-06T12:00:00.000Z"
+  },
+  {
+    "id": "o_1776078021144",
+    "userId": "u_1776077970130",
+    "items": [
+      {
+        "productId": "p_103",
+        "title": "Структурная оливковая куртка",
+        "price": 129,
+        "quantity": 1,
+        "size": "S"
+      },
+      {
+        "productId": "p_101",
+        "title": "Классический синий худи",
+        "price": 89,
+        "quantity": 1,
+        "size": ""
+      }
+    ],
+    "totalPrice": 218,
+    "status": "new",
+    "deliveryAddress": "Учебный адрес, дом 1",
+    "createdAt": "2026-04-13T11:00:21.144Z"
+  },
+  {
+    "id": "o_1776078614558",
+    "userId": "u_1776077970130",
+    "items": [
+      {
+        "productId": "p_101",
+        "title": "Классический синий худи",
+        "price": 89,
+        "quantity": 1,
+        "size": "S"
+      }
+    ],
+    "totalPrice": 89,
+    "status": "new",
+    "deliveryAddress": "Учебный адрес, дом 1",
+    "createdAt": "2026-04-13T11:10:14.558Z"
+  },
+  {
+    "id": "o_1776081349416",
+    "userId": "u_user_1",
+    "items": [
+      {
+        "productId": "p_106",
+        "title": "Современная бежевая рубашка",
+        "price": 109,
+        "quantity": 1,
+        "size": "M"
+      }
+    ],
+    "totalPrice": 109,
+    "status": "new",
+    "deliveryAddress": "Учебный адрес, дом 1",
+    "createdAt": "2026-04-13T11:55:49.416Z"
+  },
+  {
+    "id": "o_1776081833212",
+    "userId": "u_admin_1",
+    "items": [
+      {
+        "productId": "p_1776079063191",
+        "title": "Базовая футболка",
+        "price": 899,
+        "quantity": 1,
+        "size": "XXS"
+      },
+      {
+        "productId": "p_103",
+        "title": "Структурная оливковая куртка",
+        "price": 73,
+        "quantity": 1,
+        "size": "M"
+      },
+      {
+        "productId": "p_102",
+        "title": "Базовая белая футболка",
+        "price": 61,
+        "quantity": 1,
+        "size": "L"
+      },
+      {
+        "productId": "p_109",
+        "title": "Длинное темно-синее пальто",
+        "price": 53,
+        "quantity": 1,
+        "size": "S"
+      }
+    ],
+    "totalPrice": 1086,
+    "status": "in_transit",
+    "deliveryAddress": "г. Санкт-Петербург, Невский проспект, 40",
+    "createdAt": "2026-04-13T12:03:53.212Z"
+  },
+  {
+    "id": "o_1776085901770",
+    "userId": "u_1776085874139",
+    "items": [
+      {
+        "productId": "p_1776079063191",
+        "title": "Базовая футболка",
+        "price": 999,
+        "quantity": 1,
+        "size": "XXS"
+      },
+      {
+        "productId": "p_101",
+        "title": "Классический синий худи",
+        "price": 49,
+        "quantity": 1,
+        "size": "M"
+      },
+      {
+        "productId": "p_102",
+        "title": "Базовая белая футболка",
+        "price": 61,
+        "quantity": 1,
+        "size": "M"
+      }
+    ],
+    "totalPrice": 1109,
+    "status": "in_transit",
+    "deliveryAddress": "дом 673 по улице хуй соси",
+    "createdAt": "2026-04-13T13:11:41.770Z"
+  }
+]

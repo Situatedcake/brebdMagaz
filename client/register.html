@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrebdMagaz - Регистрация</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="auth-page">
+    <header id="site-header"></header>
+
+    <main class="page">
+      <section class="panel narrow">
+        <h1>Регистрация</h1>
+        <form id="register-form" class="form">
+          <label>Имя <input type="text" name="name" required /></label>
+          <label>Email <input type="email" name="email" required /></label>
+          <label>
+            Пароль
+            <div class="input-with-action">
+              <input id="register-password" type="password" name="password" required />
+              <button class="input-action-btn" type="button" data-toggle-password="register-password">Показать</button>
+            </div>
+          </label>
+          <label>Добавить аватар <input id="register-avatar-input" type="file" name="avatarFile" accept="image/*" /></label>
+          <img id="register-avatar-preview" class="avatar-preview" src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?auto=format&fit=crop&w=220&q=80" alt="avatar preview" />
+          <button class="btn" type="submit">Создать аккаунт</button>
+        </form>
+        <p id="register-message" class="message"></p>
+      </section>
+    </main>
+
+    <script type="module" src="/js/register.js"></script>
+  </body>
+</html>

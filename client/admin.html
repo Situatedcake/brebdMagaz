@@ -1,0 +1,37 @@
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrebdMagaz - Админ-панель</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header id="site-header"></header>
+
+    <main class="page">
+      <section class="panel">
+        <h1>Админ-панель</h1>
+        <form id="admin-product-form" class="form admin-form">
+          <label>Название <input type="text" name="title" required /></label>
+          <label>Бренд <input type="text" name="brand" required /></label>
+          <label>Категория <input type="text" name="category" required /></label>
+          <label>Цена <input type="number" name="price" min="1" required /></label>
+          <label>Старая цена <input type="number" name="oldPrice" min="0" /></label>
+          <label>Описание <textarea name="description"></textarea></label>
+          <label>Размеры через запятую <input type="text" name="sizes" placeholder="S, M, L" /></label>
+          <label>Фото товара (до 8)
+            <input id="admin-images-input" type="file" name="imageFiles" accept="image/*" multiple />
+          </label>
+          <div id="admin-images-preview" class="mini-previews"></div>
+          <button id="admin-submit-btn" class="btn" type="submit">Добавить товар</button>
+          <button id="admin-cancel-btn" class="btn btn-secondary" type="button" style="display:none;">Отменить редактирование</button>
+        </form>
+        <p id="admin-message" class="message"></p>
+        <div id="admin-products" class="admin-products"></div>
+      </section>
+    </main>
+
+    <script type="module" src="/js/admin.js"></script>
+  </body>
+</html>

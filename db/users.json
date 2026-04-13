@@ -1,0 +1,50 @@
+[
+  {
+    "id": "u_admin_1",
+    "name": "Admin User",
+    "email": "admin@shop.local",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "avatar": "/uploads/avatars/avatar_1776086849252_178590.jpg",
+    "isAdmin": true,
+    "cart": [],
+    "createdAt": "2026-04-01T10:00:00.000Z",
+    "sessionToken": "e46b4da978136d206232f586b3d7027dddff840e77b088b3",
+    "sessionExpiresAt": "2026-04-14T01:16:08.395Z"
+  },
+  {
+    "id": "u_user_1",
+    "name": "Ivan Petrov",
+    "email": "ivan@shop.local",
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+    "isAdmin": false,
+    "cart": [],
+    "createdAt": "2026-04-03T12:00:00.000Z",
+    "sessionToken": null,
+    "sessionExpiresAt": null
+  },
+  {
+    "id": "u_user_2",
+    "name": "Anna Smirnova",
+    "email": "anna@shop.local",
+    "password": "7f92063f461ca1991c0f734dca11d2c98d30e14f08c0e5a7f8e631eca3bc1b52",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+    "isAdmin": false,
+    "cart": [],
+    "createdAt": "2026-04-05T09:00:00.000Z",
+    "sessionToken": null,
+    "sessionExpiresAt": null
+  },
+  {
+    "id": "u_1776085874139",
+    "name": "Аркаша",
+    "email": "archadyporovozov@zovmail.ru",
+    "password": "65b94c1d95e7b993cbeefc6dc0c70bc624292af0d096cd5c9782db159dc2b290",
+    "avatar": "/uploads/avatars/avatar_1776085874135_422246.jpg",
+    "isAdmin": false,
+    "cart": [],
+    "createdAt": "2026-04-13T13:11:14.139Z",
+    "sessionToken": null,
+    "sessionExpiresAt": null
+  }
+]

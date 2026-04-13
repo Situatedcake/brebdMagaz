@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#738ea8"/>
+      <stop offset="100%" stop-color="#dce8f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1400" fill="url(#g)"/>
+  <rect x="110" y="120" width="980" height="1160" rx="48" fill="rgba(255,255,255,0.36)"/>
+  <text x="600" y="680" text-anchor="middle" fill="#1f3f5d" font-size="120" font-family="Segoe UI, Arial, sans-serif" font-weight="700">COAT</text>
+  <text x="600" y="780" text-anchor="middle" fill="#2d5678" font-size="42" font-family="Segoe UI, Arial, sans-serif">BrebdMagaz</text>
+</svg>
